@@ -5,9 +5,14 @@ import User from "../pages/User.vue";
 export default createRouter({
     history: createWebHashHistory(),
     routes: [
-        { path: "/", name: "usersList", props: true, component: UsersList },
         {
-            path: "/user/:id/:slug",
+            path: "/test-vue-polis",
+            name: "usersList",
+            props: true,
+            component: UsersList,
+        },
+        {
+            path: "/test-vue-polis/user/:id/:slug",
             name: "user",
             props: true,
             component: User,
