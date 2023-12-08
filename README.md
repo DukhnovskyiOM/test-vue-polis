@@ -1,6 +1,6 @@
 # spa_polis - Тестовое задание
 
-[DEMO]().
+[DEMO](https://dukhnovskyiom.github.io/test-vue-polis/#/).
 
 Написать SPA на Vue 2 с простой и функциональной адаптивной версткой.
 Для глобального стейта использовать vuex, для навигации vue-router.
