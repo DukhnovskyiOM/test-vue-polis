@@ -6,13 +6,13 @@ export default createRouter({
     history: createWebHashHistory(),
     routes: [
         {
-            path: "/test-vue-polis",
+            path: "/",
             name: "usersList",
             props: true,
             component: UsersList,
         },
         {
-            path: "/test-vue-polis/user/:id/:slug",
+            path: "/user/:id/:slug",
             name: "user",
             props: true,
             component: User,
